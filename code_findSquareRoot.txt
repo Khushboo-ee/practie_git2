@@ -1,0 +1,21 @@
+package com.simplilearn.liveclasses.course1;
+import java.util.Iterator;
+import java.util.Scanner;
+public class SquareRootCalc {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number to calculate its Square root: ");
+		int num1 = sc.nextInt();
+		//double num2=0;
+		for (int i=0;i<num1;i++) {
+			//i = num2;
+			if ((i*i)==num1) {
+				System.out.println("Square root of "+num1+" is: "+i);
+			}
+			
+		}
+
+	}
+
+}
